@@ -4,7 +4,7 @@ USER root
 
 WORKDIR /liquibase
 
-COPY ./entripoints/migrator.sh .
+COPY ./etr/migrator.sh .
 RUN chmod +x ./migrator.sh
 
 COPY ./app/models/sql/ .

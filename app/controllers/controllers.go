@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"../database"
-	"../models"
+	"github.com/VitalinaZhdanko/finalTask/app/database"
+	"github.com/VitalinaZhdanko/finalTask/app/models"
 	"github.com/gorilla/mux"
 )
 

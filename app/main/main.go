@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"../controllers"
-	"../database"
+	"github.com/VitalinaZhdanko/finalTask/app/controllers"
+	"github.com/VitalinaZhdanko/finalTask/app/database"
 	"github.com/gorilla/mux"
 	_ "github.com/lib/pq"
 )

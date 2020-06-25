@@ -8,6 +8,6 @@ title varchar,
 groupid int references groups (groupid) on delete cascade);
 
 create table timeframes(
-taskid int references task(taskid), 
-from timestamp without time zone,
-to timestamp without time zone);
+taskid int references tasks(taskid), 
+start timestamp without time zone,
+stop timestamp without time zone);

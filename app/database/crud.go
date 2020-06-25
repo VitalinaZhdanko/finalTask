@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"os"
 
-	"../models"
+	"github.com/VitalinaZhdanko/finalTask/app/models"
 )
 
 type dbW struct {

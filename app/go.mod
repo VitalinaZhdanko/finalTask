@@ -1,3 +1,3 @@
-module github.com/puptup/FinalTask/project
+module github.com/VitalinaZhdanko/finalTask/app
 
 go 1.14
